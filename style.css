@@ -1,7 +1,7 @@
 :root {
     --green:#5ed68a;
     --red: #1ea6c8;
-    --background:#cf2b2b;
+    --background:#be5c5c;
     --gradient-1:#cfac7f;
     --gradient-2: #522a3b;
 }
@@ -49,13 +49,13 @@ button{
     cursor:pointer;
     background: var(--green);
     padding: 2rem 6rem;
-    border-radius: 1rem 1rem 1rem 1rem;
+    border-radius: 2rem 2rem 2rem 2rem;
     font-size:1.4rem;
 }
 
 button:last-child{
     background: var(--red);
-    border-radius:1rem 1rem 1rem 1rem;
+    border-radius:2rem 2rem 2rem 2rem;
 }
 
 h3{
@@ -87,7 +87,7 @@ input{
 }
 
 #newGameButton{
-    border-radius: 0;
+    border-radius: 50;
 }
 
 @media(min-width: 800px){
